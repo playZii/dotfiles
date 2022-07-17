@@ -227,23 +227,22 @@ bindsym $mod+Shift+v exec python /home/$USER/Documents/python_bf/bfy_clipboard.p
 bindsym $mod+c exec flameshot gui
 
 # Monitors
-exec .screenlayout/hdmi.sh
+exec --no-startup-id .screenlayout/hdmi.sh
 
 # Picom
-exec_always picom -f
+exec_always --no-startup-id picom -f
 
 # Wallpaper
-exec nitrogen --restore
+exec --no-startup-id nitrogen --restore
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-#Pywal (for restoring color scheme)
-#exec_always wal --backend colorz -i /home/mkrol/Pictues/i3wmwallpapers/main.jpg 
-exec wal -R
+# Pywal (for restoring color scheme)
+exec --no-startup-id wal -R
 
-# Start polybar on one screen
-exec --no-startup-id sleep 2; exec polybar 
+# Restarting i3 to load polybar on all screens
+exec --no-startup-id i3-msg restart
 
 # Flameshot
 #exec --no-startup-id flameshot &
@@ -252,4 +251,4 @@ exec --no-startup-id sleep 2; exec polybar
 #exec --no-startup-id slack &
 
 # MPD daemon start (if no other user instance exists)
-exec_always [ ! -s ~/.config/mpd/pid ] && mpd
+exec_always --no-startup-id [ ! -s ~/.config/mpd/pid ] && mpd
