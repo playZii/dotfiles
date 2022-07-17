@@ -245,7 +245,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id wal -R
 
 # Restarting i3 to load polybar on all screens
-exec --no-startup-id i3-msg restart
+exec --no-startup-id i3-msg restart && i3-msg reload
 
 # Slack
 #exec --no-startup-id slack &
