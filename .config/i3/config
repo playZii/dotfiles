@@ -209,7 +209,7 @@ client.placeholder      $bg     $bg     $bg  $bg       $bg
 client.background       $bg
 
 # i3lock-color
-bindsym $mod+x exec $HOME/.config/scripts/lock.sh 
+bindsym $mod+x exec $HOME/.config/scripts/lock.sh
 
 # Mouse focus
 focus_follows_mouse no
