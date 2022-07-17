@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/mkrol/Pictues/i3wmwallpapers/main.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#141021",
+        "foreground": "#c4c3c7",
+        "cursor": "#c4c3c7"
+    },
+    "colors": {
+        "color0": "#141021",
+        "color1": "#6554aa",
+        "color2": "#8766aa",
+        "color3": "#a093a6",
+        "color4": "#a96395",
+        "color5": "#ac3b63",
+        "color6": "#b46b7e",
+        "color7": "#c4c3c7",
+        "color8": "#4e4b58",
+        "color9": "#6554aa",
+        "color10": "#8766aa",
+        "color11": "#a093a6",
+        "color12": "#a96395",
+        "color13": "#ac3b63",
+        "color14": "#b46b7e",
+        "color15": "#c4c3c7"
+    }
+}

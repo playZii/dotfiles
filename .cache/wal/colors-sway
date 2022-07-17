@@ -1,0 +1,21 @@
+set $wallpaper /home/mkrol/Pictues/i3wmwallpapers/main.jpg
+
+set $background #141021
+set $foreground #c4c3c7
+
+set $color0 #141021
+set $color1 #6554aa
+set $color2 #8766aa
+set $color3 #a093a6
+set $color4 #a96395
+set $color5 #ac3b63
+set $color6 #b46b7e
+set $color7 #c4c3c7
+set $color8 #4e4b58
+set $color9 #6554aa
+set $color10 #8766aa
+set $color11 #a093a6
+set $color12 #a96395
+set $color13 #ac3b63
+set $color14 #b46b7e
+set $color15 #c4c3c7
