@@ -221,13 +221,13 @@ bindsym $mod+w exec --no-startup-id brave
 bindsym $mod+e exec --no-startup-id thunar
 
 # Bf clipboard
-bindsym $mod+Shift+v exec python /home/$USER/Documents/python_bf/bfy_clipboard.py
+bindsym $mod+Shift+v exec python $HOME/Documents/python_bf/bfy_clipboard.py
 
 # Screenshot - flameshot
 bindsym $mod+c exec --no-startup-id flameshot gui
 
 # Monitors
-exec --no-startup-id .screenlayout/hdmi.sh
+exec --no-startup-id $HOME/.screenlayout/hdmi.sh
 
 # Picom
 exec_always --no-startup-id picom -f
@@ -248,7 +248,7 @@ exec --no-startup-id wal -R
 exec --no-startup-id i3-msg restart && i3-msg reload
 
 # Slack
-#exec --no-startup-id slack &
+exec --no-startup-id slack -u
 
 # MPD daemon start (if no other user instance exists)
 exec_always --no-startup-id [ ! -s ~/.config/mpd/pid ] && mpd
