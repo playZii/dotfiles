@@ -153,7 +153,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit 3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -208,11 +208,11 @@ client.placeholder      $bg     $bg     $bg  $bg       $bg
 
 client.background       $bg
 
-# i3lock-color
-bindsym $mod+x exec $HOME/.config/scripts/lock.sh
-
 # Mouse focus
 focus_follows_mouse no
+
+# i3lock-color
+bindsym $mod+x exec $HOME/.config/scripts/lock.sh
 
 # Browser - brave
 bindsym $mod+w exec --no-startup-id brave 
@@ -220,11 +220,11 @@ bindsym $mod+w exec --no-startup-id brave
 # Files - thunar
 bindsym $mod+e exec --no-startup-id thunar
 
-# Bf clipboard
-bindsym $mod+Shift+v exec python $HOME/Documents/python_bf/bfy_clipboard.py
-
 # Screenshot - flameshot
 bindsym $mod+c exec --no-startup-id flameshot gui
+
+# Remote desktop - remmina
+bindsym $mod+b exec --no-startup-id remmina
 
 # Monitors
 exec --no-startup-id $HOME/.screenlayout/hdmi.sh
