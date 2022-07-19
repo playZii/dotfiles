@@ -226,6 +226,9 @@ bindsym $mod+c exec --no-startup-id flameshot gui
 # Remote desktop - remmina
 bindsym $mod+b exec --no-startup-id remmina
 
+# Messages - slack
+bindsym $mod+Shift+w exec --no-startup-id slack
+
 # Monitors
 exec --no-startup-id $HOME/.screenlayout/hdmi.sh
 
