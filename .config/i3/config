@@ -124,7 +124,7 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-# switch between two windows
+# switch between two windows (alt+tab windows)
 bindsym $mod+Tab workspace back_and_forth
 
 # switch to workspace
