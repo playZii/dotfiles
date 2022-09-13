@@ -124,6 +124,9 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+# switch between two windows
+bindsym $mod+Tab workspace back_and_forth
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -215,6 +218,9 @@ focus_follows_mouse no
 #bindsym $mod+x exec $HOME/.config/scripts/lock.sh
 # lighdm lock
 bindsym $mod+x exec dm-tool lock
+
+# bfy script
+bindsym $mod+Shift+v exec python $HOME/Documents/python_bf/bfy_clipboard.py
 
 # Browser - brave
 bindsym $mod+w exec --no-startup-id brave 
