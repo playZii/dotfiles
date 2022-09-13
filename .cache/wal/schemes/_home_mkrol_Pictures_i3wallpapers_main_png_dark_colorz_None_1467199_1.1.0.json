@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mkrol/Pictures/i3wallpapers/main.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b2327",
+        "foreground": "#c2c8c9",
+        "cursor": "#c2c8c9"
+    },
+    "colors": {
+        "color0": "#0b2327",
+        "color1": "#3ab3c5",
+        "color2": "#19a7c6",
+        "color3": "#0d8db4",
+        "color4": "#0277aa",
+        "color5": "#1574aa",
+        "color6": "#0764aa",
+        "color7": "#c2c8c9",
+        "color8": "#485a5d",
+        "color9": "#3ab3c5",
+        "color10": "#19a7c6",
+        "color11": "#0d8db4",
+        "color12": "#0277aa",
+        "color13": "#1574aa",
+        "color14": "#0764aa",
+        "color15": "#c2c8c9"
+    }
+}
