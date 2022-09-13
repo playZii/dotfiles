@@ -216,6 +216,9 @@ focus_follows_mouse no
 # lighdm lock
 bindsym $mod+x exec dm-tool lock
 
+# bfy script
+bindsym $mod+Shift+v exec python $HOME/Documents/python_bf/bfy_clipboard.py
+
 # Browser - brave
 bindsym $mod+w exec --no-startup-id brave 
 

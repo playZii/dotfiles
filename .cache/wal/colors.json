@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/mkrol/Pictues/i3wmwallpapers/main.jpg",
+    "wallpaper": "/home/mkrol/Pictures/i3wallpapers/main.png",
     "alpha": "100",
 
     "special": {
-        "background": "#141021",
-        "foreground": "#c4c3c7",
-        "cursor": "#c4c3c7"
+        "background": "#0b2327",
+        "foreground": "#c2c8c9",
+        "cursor": "#c2c8c9"
     },
     "colors": {
-        "color0": "#141021",
-        "color1": "#6554aa",
-        "color2": "#8766aa",
-        "color3": "#a093a6",
-        "color4": "#a96395",
-        "color5": "#ac3b63",
-        "color6": "#b46b7e",
-        "color7": "#c4c3c7",
-        "color8": "#4e4b58",
-        "color9": "#6554aa",
-        "color10": "#8766aa",
-        "color11": "#a093a6",
-        "color12": "#a96395",
-        "color13": "#ac3b63",
-        "color14": "#b46b7e",
-        "color15": "#c4c3c7"
+        "color0": "#0b2327",
+        "color1": "#3ab3c5",
+        "color2": "#19a7c6",
+        "color3": "#0d8db4",
+        "color4": "#0277aa",
+        "color5": "#1574aa",
+        "color6": "#0764aa",
+        "color7": "#c2c8c9",
+        "color8": "#485a5d",
+        "color9": "#3ab3c5",
+        "color10": "#19a7c6",
+        "color11": "#0d8db4",
+        "color12": "#0277aa",
+        "color13": "#1574aa",
+        "color14": "#0764aa",
+        "color15": "#c2c8c9"
     }
 }
